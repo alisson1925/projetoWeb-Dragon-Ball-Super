@@ -1,5 +1,5 @@
 @import url(./header.css);
-@import url('./main.css')
+@import url('./main.css');
 *{
   padding: 0;
   margin: 0;
@@ -12,6 +12,9 @@
   --blue: #0041C2;
   --green: #14B02D;
   --yellow: #ffc12b;
+}
+html{
+  padding: 10px;
 }
 
 body, button, a {
@@ -33,6 +36,7 @@ button:hover {
 }
 
 #app {
+
   display: flex;
   flex-direction: column;
   align-items: center;
